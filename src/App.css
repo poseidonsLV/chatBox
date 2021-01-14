@@ -1,0 +1,88 @@
+.login {
+  margin-top: 25vh;
+  display: grid;
+  place-items: center;
+}
+.login__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  padding-top: 30px;
+  padding: 30px;
+  box-shadow: 0px 0px 15px 0.2px rgba(0, 0, 0, 0.226);
+}
+.chooseAvatar {
+  color: grey;
+  outline: none;
+  border: 2px solid rgba(7, 204, 7, 0.349);
+  padding: 15px;
+  width: 200px;
+  background-color: white;
+}
+.chooseAvatar:hover {
+  border: 2px solid rgba(7, 204, 7, 0.555);
+  cursor: pointer;
+}
+.login__container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.login__container > input {
+  margin: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(148, 148, 148);
+  outline: none;
+}
+.login__container > button {
+  padding: 10px !important;
+  border-radius: 15px !important;
+  border: 2px solid rgba(10, 216, 10, 0.329) !important;
+  outline: none;
+  background-color: white;
+  color: rgb(87, 87, 87);
+}
+.login__container > button:hover {
+  border: 2px solid rgba(10, 216, 10, 0.555) !important;
+}
+.chosenAvatar {
+  object-fit: contain;
+  width: 100px;
+}
+.avatars {
+  padding: 5px;
+  display: flex;
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.avatars > .avatar {
+  padding: 20px;
+  margin: 5px;
+  transition: transform 0.3s;
+}
+.avatars > .avatar:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+  outline: 1px solid rgba(255, 174, 0, 0.4);
+}
+.avatars-body {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: flex;
+  padding: 20px 10px;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(253, 253, 253);
+  border: 2px solid green;
+  outline: none;
+  font-family: sans-serif;
+}
+@media (max-width: 758px) {
+}

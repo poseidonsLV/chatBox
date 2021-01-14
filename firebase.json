@@ -1,0 +1,8 @@
+{
+  "database": {
+    "rules": "package.json"
+  },
+  "hosting": {
+    "public": "public"
+  }
+}
